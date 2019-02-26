@@ -1,6 +1,8 @@
 $bg-color: #333333;
 $font-color: #f4f4f4;
 $primary-color: #008ed6;
+$dark-overlay-color: rgba(0, 0, 0, 0.7);
+$icon-font-size: 30px;
 
 body {
   background-color: $bg-color;
@@ -10,4 +12,33 @@ body {
 .navbar {
   border-bottom: $primary-color 3px solid;
   opacity: 0.8;
+}
+
+#home-section {
+  background: url("../img/home.jpg");
+  min-height: 700px;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .dark-overlay {
+    background-color: $dark-overlay-color;
+    width: 100%;
+    min-height: 700px;
+  }
+  
+  .home-inner {
+    padding-top: 150px;
+  }
+  
+  .card-form {
+    opacity: 0.8;
+  }
+
+  i {
+    font-size: $icon-font-size;
+    color: $primary-color;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+  }
 }
