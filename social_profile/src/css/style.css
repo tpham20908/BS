@@ -32,3 +32,10 @@ body {
   background-color: #333333;
   padding: 4px;
   border-radius: 5px; }
+
+#create-section i {
+  font-size: 30px;
+  color: #008ed6;
+  background-color: #fff;
+  padding: 4px;
+  border-radius: 5px; }
